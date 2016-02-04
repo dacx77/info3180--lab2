@@ -41,6 +41,7 @@ def send_text_file(file_name):
     return app.send_static_file(file_dot_text)
 
 
+
 @app.after_request
 def add_header(response):
     """
